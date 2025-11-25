@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <title>MQTT – minimal homelab icon</title>
+  <!-- Background circle -->
+  <circle cx="128" cy="128" r="112" fill="#7E57C2"/>
+  <!-- Radio / signal arcs (detection/telemetry) -->
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round">
+    <path d="M96 128c0-17.673 14.327-32 32-32" stroke-width="10"/>
+    <path d="M84 128c0-24.853 20.147-45 45-45" stroke-width="8"/>
+    <path d="M72 128c0-32.98 26.72-59.7 59.7-59.7" stroke-width="6"/>
+  </g>
+  <!-- Message queue / topics (stacked squares) -->
+  <g fill="#FFFFFF">
+    <rect x="152" y="98" width="28" height="28" rx="6"/>
+    <rect x="152" y="130" width="28" height="28" rx="6" opacity="0.9"/>
+    <rect x="152" y="162" width="28" height="28" rx="6" opacity="0.8"/>
+  </g>
+  <!-- Central dot (broker node) -->
+  <circle cx="128" cy="128" r="8" fill="#FFFFFF"/>
+</svg>
